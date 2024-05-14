@@ -93,9 +93,10 @@ export default function ConfigScreen({ ctx }: Props) {
           <b>{noteForASF}</b>
         </div>
 
-        <div className={s.inspector}>
+        {/* //* Use when adding features or debugging. */}
+        {/* <div className={s.inspector}>
           <ContextInspector />
-        </div>
+        </div> */}
       </div>
     </Canvas>
   );
